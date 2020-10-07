@@ -1,6 +1,6 @@
 function creategitalk(id,secret,rep,div){
 	
-	document.write('<link rel="stylesheet" type="text/css" href="https://cdn.junbo.wang/gitalk/gitalk.css"><script src="https://cdn.junbo.wang/gitalk/gitalk.min.js"></script>')
+	document.write('<link rel="stylesheet" type="text/css" href="//cdn.junbo.wang/gitalk/gitalk.css"><script src="//cdn.junbo.wang/gitalk/gitalk.min.js"></script>')
 	
 	
 	gitalk = new Gitalk({
