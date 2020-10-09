@@ -47,6 +47,7 @@ function getCookie(cname)
 if ( typeof(window.google_jobrunner) != 'object' ){
 // AdSense js not loaded
 // AdBlock detected
+
 }
 
 
