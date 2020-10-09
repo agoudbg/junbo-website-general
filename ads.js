@@ -59,7 +59,7 @@ function adsblocked(){
 
 window.onload = function () {
 	alert(typeof(window.google_jobrunner) );
-	if ( typeof(window.google_jobrunner) != object ){
+	if ( typeof(window.google_jobrunner) == undefined ){
 	// AdSense js not loaded
 	// AdBlock detected
 	adsblocked();
