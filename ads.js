@@ -50,9 +50,9 @@ function adsblocked(){
 	// alert("test");
 	a=document.getElementsByClassName("noblock");
 	
-	for(i=0; 1<50; i++){
+	for(i=0; 1<document.getElementsByClassName("noblock").length; i++){
 		
-		a[i].style.display="inline!important";
+		a[i].style.display="block!important";
 	}
 	
 }
