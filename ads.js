@@ -52,7 +52,7 @@ function adsblocked(){
 	
 	for(i=0; 1<document.getElementsByClassName("noblock").length; i++){
 		
-		a[i].style.display="block!important";
+		a[i].style.display="block";
 	}
 	
 }
