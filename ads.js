@@ -5,7 +5,7 @@ function showad(type, width, height, others){
 	// document.write(document.cookie);
 	if (getCookie("noad")==""){
 		
-		document.writeln("<script async src=\'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\'></script><ins class=\'adsbygoogle\'style=\'display:block;width:"+width+";height:"+height+";"+others+"\'data-ad-client=\'ca-pub-5639925822995109\'data-ad-slot=\'"+ad_types[type]+"\'data-full-width-responsive=\'false\' s></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>");		
+		document.writeln("<script async src=\'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\'></script><ins class=\'adsbygoogle\'style=\'display:block;width:"+width+";height:"+height+";"+others+"\'data-ad-client=\'ca-pub-5639925822995109\'data-ad-slot=\'"+ad_types[type]+"\'data-full-width-responsive=\'false\' s></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><div class='noblock' style='display: block ;width: 100%; height: 200px; background-color: white; color: black; '>看起来你使用了广告拦截器。殊不知，广告是我们网站重要的收入来源之一。即使你不像在网站上看到广告，又何苦使用这样的方式呢？我们在junbo.wang/settings提供了关闭通道，你可以到那里关闭广告。如果你不想看到此通知，请一并把这个提示屏蔽吧。</div>");		
 		
 		return 0;
 		
@@ -48,10 +48,10 @@ function getCookie(cname)
 function adsblocked(){
 	
 	alert("test");
-	a=document.getElementsByClassName("adsbygoogle");
+	a=document.getElementsByClassName("noblock");
 	
 	for(i=0; 1<50; i++){
-		a[i].innerHTML="<div class='noblock'>看起来你使用了广告拦截器。殊不知，广告是我们网站重要的收入来源之一。即使你不像在网站上看到广告，又何苦使用这样的方式呢？我们在junbo.wang/settings提供了关闭通道，你可以到那里关闭广告。如果你不想看到此通知，请一并把这个提示屏蔽吧。</div>";
+		
 		a[i].style.display="inline!important";
 	}
 	
