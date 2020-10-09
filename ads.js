@@ -44,15 +44,26 @@ function getCookie(cname)
   }
   return "";
 }
-if ( typeof(window.google_jobrunner) != 'object' ){
-// AdSense js not loaded
-// AdBlock detected
 
+function adsblocked(){
+	
+	alert("test");
+	
 }
 
+window.onload = function () {
+	
+	if ( typeof(window.google_jobrunner) != 'object' ){
+	// AdSense js not loaded
+	// AdBlock detected
+	adsblocked();
+	}
+			
+	window.setTimeout(function(){
+	if(adsbygoogle instanceof Array) {
+	// AdSense js not loaded
+	// AdBlock detected
+	adsblocked();
+	} }, 2000);
 
-window.setTimeout(function(){
-if(adsbygoogle instanceof Array) {
-// AdSense js not loaded
-// AdBlock detected
-} }, 2000);
+}
