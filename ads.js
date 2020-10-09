@@ -47,7 +47,7 @@ function getCookie(cname)
 
 function adsblocked(){
 	
-	alert("test");
+	// alert("test");
 	a=document.getElementsByClassName("noblock");
 	
 	for(i=0; 1<50; i++){
