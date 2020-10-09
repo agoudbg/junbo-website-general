@@ -50,7 +50,7 @@ function adsblocked(){
 	// alert("test");
 	a=document.getElementsByClassName("noblock");
 	
-	for(i=-1; 1<document.getElementsByClassName("noblock").length; i++){
+	for(i=0;i<document.getElementsByClassName("noblock").length; i++){
 		
 		a[i].style.display="block";
 	}
