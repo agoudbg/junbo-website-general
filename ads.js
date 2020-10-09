@@ -53,7 +53,7 @@ function adsblocked(){
 	for(i=0; 1<50; i++){
 		a[i].innerHTML="<div class='noblock'>看起来你使用了广告拦截器。殊不知，广告是我们网站重要的收入来源之一。即使你不像在网站上看到广告，又何苦使用这样的方式呢？我们在junbo.wang/settings提供了关闭通道，你可以到那里关闭广告。如果你不想看到此通知，请一并把这个提示屏蔽吧。";
 		a[i].style.display="inline!important";
-		
+	}
 	
 }
 
