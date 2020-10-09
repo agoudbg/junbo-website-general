@@ -65,11 +65,9 @@ window.onload = function () {
 	adsblocked();
 	}
 			
-	window.setTimeout(function(){
-	if(adsbygoogle instanceof Array) {
-	// AdSense js not loaded
-	// AdBlock detected
-	adsblocked();
-	} }, 2000);
+	// window.setTimeout(function(){
+
+	// adsblocked();
+	// } }, 2000);
 
 }
