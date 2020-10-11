@@ -1,4 +1,4 @@
-ad_types=[/* 正方形 */"7888411968", /* 横向 */"8287867219", ];
+ad_types=[/* 正方形 */"7888411968", /* 横向 */"8287867219", /* 资料站信息流 */"2505400067"];
 function showad(type, width, height, others){
 	
 	document.cookie="username=John Doe; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/";
