@@ -10,7 +10,7 @@ function showad(type, width, height, others){
 	}
 	else{
 		
-		document.write("无广告");
+		// document.write("无广告");
 		
 	}
 	
