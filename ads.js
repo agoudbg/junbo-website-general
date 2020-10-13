@@ -28,7 +28,7 @@ function closead(){
 
 function openad(){
 		
-	document.cookie="noad=close; max-age=0";
+	document.cookie="noad=; max-age=0";
 
 	
 }
