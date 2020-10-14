@@ -69,3 +69,10 @@ window.onload = function () {
 	// } }, 2000);
 
 }
+
+function showiframead(style,divid){
+	if (getCookie("noad")=="")
+		divid.innerHTML="<iframe src='//cdn.junbo.wang/ad.html' style='"+style+"'></iframe>"
+	
+	
+}
