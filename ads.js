@@ -26,7 +26,7 @@ function closead(){
 
 function openad(){
 		
-	document.cookie="noad=; max-age=0;path=/";
+	document.cookie="noad=; max-age=0;path=/;domain=junbo.wang";
 
 	
 }
