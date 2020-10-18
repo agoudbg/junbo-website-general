@@ -72,7 +72,7 @@ window.onload = function () {
 
 function showiframead(style,divid){
 	if (getCookie("noad")=="")
-		document.getElementById(divid).innerHTML="<iframe src='//cdn.junbo.wang/ad.html'  frameboader='no' style='"+style+"'></iframe>";
+		document.getElementById(divid).innerHTML="<iframe src='//cdn.junbo.wang/ad.html'  frameboader='no' style='"+style+";border-width:0;'></iframe>";
 	
 	
 }
