@@ -19,7 +19,7 @@ function showad(type, width, height, others){
 
 function closead(){
 		
-	document.cookie="noad=open; max-age=2626560;path=/";
+	document.cookie="noad=open; max-age=2626560;path=/;domain=junbo.wang";
 
 	
 }
