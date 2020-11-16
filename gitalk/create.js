@@ -1,4 +1,4 @@
-function creategitalk(id,secret,rep,div){
+function creategitalk(id,secret,rep,div,pinglunid){
 	
 	document.write('<link rel="stylesheet" type="text/css" href="//cdn.junbo.wang/gitalk/gitalk.css">')
 	
@@ -9,7 +9,7 @@ function creategitalk(id,secret,rep,div){
 	  repo: rep,
 	  owner: 'agoudbg',
 	  admin: ['agoudbg'],
-	  id: location.pathname,//getUrlArgStr(),      // Ensure uniqueness and length less than 50
+	  id: pinglunid,//getUrlArgStr(),      // Ensure uniqueness and length less than 50
 	  distractionFreeMode: true  // Facebook-like distraction free mode
 	})
 
