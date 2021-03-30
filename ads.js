@@ -6,7 +6,7 @@ function showad(type, width, height, others){
 	if (getCookie("noad")==""){
 		
 		document.write("<ins class=\'adsbygoogle\'style=\'display:block;width:"+width+";height:"+height+";"+others+"\'data-ad-client=\'ca-pub-5639925822995109\'data-ad-slot=\'"+ad_types[type]+"\'data-full-width-responsive=\'false\' s></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><div class='noblock button' style='display: none; width: 100%; margin: 10px auto;'><p style=' line-height: 2.0;padding: 20px;'>看起来你使用了广告拦截器。</p></div>");		
-		
+		(adsbygoogle = window.adsbygoogle || []).push({});
 		return 0;
 		
 	}
